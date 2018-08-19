@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55776" started-at="2018-08-09T18:18:11Z" finished-at="2018-08-09T18:19:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55776" started-at="2018-08-09T18:18:11Z" finished-at="2018-08-09T18:19:07Z">
+      <class name="com.dataprovider_newframework_pkg.test_cases">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.dataprovider_newframework_pkg.test_cases@59e5ddf]" name="start" is-config="true" duration-ms="17244" started-at="2018-08-09T23:47:54Z" finished-at="2018-08-09T23:48:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider_newframework_pkg.test_cases@59e5ddf]" name="login" duration-ms="913" started-at="2018-08-09T23:48:12Z" data-provider="login_data" finished-at="2018-08-09T23:48:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sudhir@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7891011]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider_newframework_pkg.test_cases@59e5ddf]" name="login" duration-ms="258" started-at="2018-08-09T23:48:12Z" data-provider="login_data" finished-at="2018-08-09T23:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12131415]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.dataprovider_newframework_pkg.test_cases@59e5ddf]" name="login" duration-ms="54446" started-at="2018-08-09T23:48:13Z" data-provider="login_data" finished-at="2018-08-09T23:49:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.dataprovider_newframework_pkg.test_cases@59e5ddf]" name="tearDown" is-config="true" duration-ms="536" started-at="2018-08-09T23:49:07Z" finished-at="2018-08-09T23:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dataprovider_newframework_pkg.test_cases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
